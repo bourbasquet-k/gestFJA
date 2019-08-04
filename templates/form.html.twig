@@ -1,0 +1,246 @@
+{# templates/form.html.twig #}
+<form action="" method="post">
+  <h2>Situation</h2>
+    <p>Date :</p>
+    <input type="date" name="date" />
+    <p>Lieu :</p>
+    <input type="text" name="lieu" />
+    <p>Nom du client :</p>
+    <input type="text" name="nomCli" />
+    <p>Responsable d'équipe :</p>
+    <input type="text" name="nomRes" />
+    <h3>Personnel</h3>
+      <button id="addPersonnel" onclick="" >+</button>
+      <select name="personnel" size="1">
+        <option value="nbheures">Exemple</option>
+      </select>
+  <h2>Opérations</h2>
+    <div id="opFixe">
+
+      <p>Tracé - Piquetage - Implantation</p>
+      <input type="number" name="heure" min="0" />
+
+      <p>Approvisionnement</p>
+        <input type="number" name="heure" min="0" />
+
+      <p>Démolition</p>
+        <input type="number" name="heure" min="0" />
+
+      <p>Décaissement et reprofilage</p>
+        <input type="number" name="heure" min="0" />
+
+      <p>Evacuation de gravats en mélange</p>
+        <input type="number" name="heure" min="0" />
+
+      <p>Evacuation de déchets terreux</p>
+        <input type="number" name="heure" min="0" />
+
+      <p>Evacuation de déchets de végétaux</p>
+        <input type="number" name="heure" min="0" />
+
+      <p>Passage de fourreaux</p>
+        <input type="number" name="heure" min="0" />
+
+      <p>Empierrement et compactage</p>
+        <input type="number" name="heure" min="0" />
+
+      <p>Mise en place de regard</p>
+        <input type="number" name="heure" min="0" />
+
+      <p>Mise en place d'aquodrain</p>
+        <input type="number" name="heure" min="0" />
+
+      <p>Nettoyage du chantier</p>
+        <input type="number" name="heure" min="0" />
+      
+
+      <p>Réalisation d'une surface en nidagravel</p>
+        <input type="number" name="heure" min="0" />
+      <p>Réalisation de chainettes :</p>
+      <ul>
+        <li>Tranchée</li>
+          <input type="number" name="heure" min="0" />
+        <li>Pose des pavés</li>
+          <input type="number" name="heure" min="0" />
+        <li>Coupe</li>
+          <input type="number" name="heure" min="0" />
+        <li>Solins</li>
+          <input type="number" name="heure" min="0" />
+        <li>Joints</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+
+      <p>Réalisation d'un pavage :</p>
+      <ul>
+        <li>Tirage de la chape</li>
+          <input type="number" name="heure" min="0" />
+        <li>Pose des pavés</li>
+          <input type="number" name="heure" min="0" />
+        <li>Coupe</li>
+          <input type="number" name="heure" min="0" />
+        <li>Joints</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Réalisation d'un dallage :</p>
+      <ul>
+        <li>Tirage de la chape</li>
+          <input type="number" name="heure" min="0" />
+        <li>Pose de plots</li>
+          <input type="number" name="heure" min="0" />
+        <li>Pose de dalles</li>
+          <input type="number" name="heure" min="0" />
+        <li>Coupe</li>
+          <input type="number" name="heure" min="0" />
+        <li>Joints</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Réalisation d'un mur maçonné :</p>
+      <ul>
+        <li>Semelle</li>
+          <input type="number" name="heure" min="0" />
+        <li>Pose d'agglo</li>
+          <input type="number" name="heure" min="0" />
+        <li>Habillage</li>
+          <input type="number" name="heure" min="0" />
+        <li>Pose de baguettes</li>
+          <input type="number" name="heure" min="0" />
+        <li>Mise en place d'enduit</li>
+          <input type="number" name="heure" min="0" />
+        <li>Grattage de l'enduit</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+
+      <p>Fixation d'un grillage :</p>
+      <ul>
+        <li>Creuser le trou</li>
+          <input type="number" name="heure" min="0" />
+        <li>Fixer le poteau</li>
+          <input type="number" name="heure" min="0" />
+        <li>Fixer le grillage</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Fixation d'un portail</p>
+        <input type="number" name="heure" min="0" />
+      <p>Fixation d'un portillon</p>
+        <input type="number" name="heure" min="0" />
+      <p>Jeu de barrette schiste :</p>
+      <ul>
+        <li>Tirage d'une chape</li>
+          <input type="number" name="heure" min="0" />
+        <li>Pose des barrettes</li>
+          <input type="number" name="heure" min="0" />
+        <li>Joints</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Pose de palis de schiste :</p>
+      <ul>
+        <li>Callage des palis</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Retenue en palis :</p>
+      <ul>
+        <li>Fouille</li>
+          <input type="number" name="heure" min="0" />
+        <li>Calage du palis</li>
+          <input type="number" name="heure" min="0" />
+        <li>Mise en place du delta MS</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Mise en place de claustra :</p>
+      <ul>
+        <li>Creuser le trou</li>
+          <input type="number" name="heure" min="0" />
+        <li>Fixer la platine</li>
+          <input type="number" name="heure" min="0" />
+        <li>Sceller le poteau</li>
+          <input type="number" name="heure" min="0" />
+        <li>Fixer le panneau</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Création d'une palissade bois :</p>
+      <ul>
+        <li>Creuser le trou</li>
+          <input type="number" name="heure" min="0" />
+        <li>Fixer le poteau</li>
+          <input type="number" name="heure" min="0" />
+        <li>Ossature</li>
+          <input type="number" name="heure" min="0" />
+        <li>Fixation des lattes</li>
+          <input type="number" name="heure" min="0" />
+        <li>Découpe</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Réalisation d'une terasse bois :</p>
+      <ul>
+        <li>Ossature</li>
+          <input type="number" name="heure" min="0" />
+        <li>Fixation de lattes</li>
+          <input type="number" name="heure" min="0" />
+        <li>Contremarche</li>
+          <input type="number" name="heure" min="0" />
+        <li>Total des découpes</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Retenue en bois :</p>
+      <ul>
+        <li>Fouille</li>
+          <input type="number" name="heure" min="0" />
+        <li>Mise en place de delta MS</li>
+          <input type="number" name="heure" min="0" />
+        <li>Fixation de la traverse</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Gazon :</p>
+      <ul>
+        <li>Décompactage</li>
+          <input type="number" name="heure" min="0" />
+        <li>Griffage</li>
+          <input type="number" name="heure" min="0" />
+        <li>Semis ou pose des rouleaux</li>
+          <input type="number" name="heure" min="0" />
+        <li>Roulage</li>
+          <input type="number" name="heure" min="0" />
+        <li>Première tonte</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Cerclage de bambou :</p>
+      <ul>
+        <li>Creuser la tranchée</li>
+          <input type="number" name="heure" min="0" />
+        <li>Mise en place du rootstop</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Plantations petits sujets :</p>
+      <ul>
+        <li>Décompactage</li>
+          <input type="number" name="heure" min="0" />
+        <li>Préparations aux plantations</li>
+          <input type="number" name="heure" min="0" />
+        <li>Plantations</li>
+          <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Plantations des gros sujets :</p>
+      <ul>
+        <li>Plantations</li>
+        <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Mise en place de paillage :</p>
+      <ul>
+        <li>Pose du geotextile</li>
+        <input type="number" name="heure" min="0" />
+        <li>Mise en place du paillage</li>
+        <input type="number" name="heure" min="0" />
+      </ul>
+      <p>Pose de bache</p>
+      <input type="number" name="heure" min="0" />
+    </div>
+    <div id="opLibre">
+      <p>Opérations supplémentaires :</p>
+      <button id="addOpLibre">+</button>
+    </div>
+    <p>Observations</p>
+    <input type="text" name="observation" />
+    <div>
+      <input type="submit">
+    </div>
+</form>
